@@ -1,0 +1,80 @@
+.nav{
+ display: flex;
+ flex-direction:row;
+ justify-content: space-between;   
+}
+
+.logo{
+    margin-left: 50px;
+    color: rgb(0, 132, 255);
+}
+
+.logo :hover{
+    cursor: pointer;
+}
+
+.logo span{
+    color: rgb(243, 243, 243);
+}
+
+.buttons{
+    padding-left: 0;
+}
+
+.buttons ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+.buttons li{
+    margin-right: 40px;
+    list-style: none;
+    color:rgb(121, 121, 121);
+    font-weight: 500;
+   
+}
+
+.buttons ul a{
+    text-decoration: none;
+}
+
+.buttons ul a :hover{
+    cursor: pointer;
+    color: rgb(0, 132, 255);
+    border-bottom: 4px solid rgb(0, 132, 255);
+    padding-bottom: 8px;
+}
+
+.signin{
+    margin: 15px 0px;
+    margin-right: 200px;
+    background-color: transparent;
+}
+
+.signin button{
+    padding: 5px 20px 5px 20px;
+    border: 1px solid rgb(243, 243, 243);
+    background-color: transparent;
+    padding-top: 6px;
+}
+
+.signin a{
+    text-decoration: none;
+    color:rgb(243, 243, 243);
+    font-weight: 500;
+    background-color: transparent;
+
+}
+
+.signin button:hover{
+    color: rgb(0, 132, 255);
+    border: 1px solid rgb(243, 243, 243);
+    transition: 0.3s;
+    background-color: rgb(0, 132, 255);
+}
+
+.toggle{
+    display: none;
+}
